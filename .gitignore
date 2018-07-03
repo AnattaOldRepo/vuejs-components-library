@@ -1,0 +1,27 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+/yarn-error.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+sw.*
+
+.vscode/
+
+.idea/
+
+rothys.code-workspace/
+
+*.code-workspace
+.DS_Store
+
+#api tester
+pages/api
+pages/test
