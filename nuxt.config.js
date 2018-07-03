@@ -3,6 +3,10 @@ module.exports = {
 	/*
   ** Headers of the page
   */
+
+	// css: [
+	// 	'~/css/main.css'
+	// ],	
 	head: {
 		title: 'styleguide',
 		meta: [
