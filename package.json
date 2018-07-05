@@ -1,0 +1,40 @@
+{
+  "name": "styleguide",
+  "version": "1.7.10",
+  "description": "Nuxt.js project",
+  "author": "Knovour <knovour@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.9.1",
+    "nuxt": "^1.0.0-rc11",
+    "postcss-at2x": "^4.0.2",
+    "postcss-automath": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-flexbox": "^1.0.3",
+    "postcss-fontpath": "^1.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-short": "^4.1.0",
+    "postcss-url": "^7.3.2",
+    "postcss-utilities": "^0.8.0",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.0.3",
+    "vue-style-loader": "^4.1.0",
+    "vue-styleguidist": "1.7.10",
+    "vue-webpack-loaders": "^1.0.8"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
+  }
+}
