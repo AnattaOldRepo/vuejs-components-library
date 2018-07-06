@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+
       <h1 class="title">
         styleguide
       </h1>
@@ -17,20 +17,17 @@
         <span class="color-blue">Blue</span>
         <span class="color-green">Green</span>
         Counter Button:
-        <counter-button></counter-button>
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import CounterButton from '~/components/CounterButton/CounterButton.vue'
 
 export default {
   components: {
-    Logo,
-    CounterButton
+
   }
 }
 </script>

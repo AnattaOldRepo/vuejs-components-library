@@ -1,0 +1,7 @@
+@import './typography.css';
+
+
+html,
+html * {
+    box-sizing: border-box;
+}

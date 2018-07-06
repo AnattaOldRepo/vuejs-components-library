@@ -1,3 +1,19 @@
-.color-green {
-    color: green;
-}
+/* Colors */
+$color-black: #000;
+$color-white: #fff;
+$color-red: #ee2e2d;
+$color-green: #7fc563;
+$color-orange: #faa846;
+
+/* State Colors */
+$color-active: $color-red;
+$color-success: $color-green;
+$color-warning: $color-orange;
+$color-error: $color-red;
+
+/* Palette Colors */
+$color-primary: $color-red;
+$color-secondary: $color-black;
+$color-accent1: $color-green;
+$color-accent2: $color-orange;
+$color-accent3: $color-red;

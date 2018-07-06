@@ -1,0 +1,49 @@
+/* Base Colors */
+.u-color--black {
+    color: #000;
+}
+.u-color--white {
+    color: #fff;
+}
+.u-color--red {
+    color: #ee2e2d;
+}
+.u-color--green {
+    color: #7fc563;
+}
+.u-color--orange {
+    color: #faa846;
+}
+
+/* Palette Colors */
+.u-color--primary {
+    color: $color-red;
+}
+.u-color--secondary {
+    color: $color-black;
+}
+.u-color--accent1 {
+    color: $color-green;
+}
+.u-color--accent2 {
+    color: $color-orange;
+}
+.u-color--accent3 {
+    color: $color-red;
+}
+
+
+/* State Colors */
+.u-color--active {
+    color: $color-red;
+}
+.u-color--success {
+    color: $color-green;
+}
+.u-color--warning {
+    color: $color-orange;
+}
+.u-color--error {
+    color: $color-red;
+}
+

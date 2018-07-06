@@ -1,11 +1,4 @@
 @import './settings/index.css';
 @import './utilities/index.css';
 
-.color-blue {
-    color: blue;
-}
-
-
-.color-red {
-    color: red;
-}
+@import './base/index.css';

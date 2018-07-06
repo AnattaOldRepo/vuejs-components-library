@@ -33,6 +33,6 @@ module.exports = {
 			require("postcss-short")(),
 			require("postcss-automath")(),
 			// require("postcss-zindex")(),
-		]		
-	}
+		],
+	},
 };

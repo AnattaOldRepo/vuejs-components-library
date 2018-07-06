@@ -1,8 +1,26 @@
 const { resolve } = require('path');
+const path = require('path')
 const rules = require('vue-webpack-loaders');
 
 module.exports = {
 	components: 'src/components/**/[A-Z]*.vue',
+	sections: [
+		{
+			name: 'Base Styling',
+			components: './src/components/baseStyling/[A-Z]*.vue'
+		},
+		{
+			name: 'Components',
+			components: './src/components/[A-Z]*.vue'
+		},		
+		{
+			name: 'Modules',
+			components: './src/components/modules/[A-Z]*.vue'
+		},		
+	],
+	require: [ 
+		path.join(__dirname, 'src/css/main.css')
+	],
 	webpackConfig: {
 		resolve: {
 			extensions: ['.js', '.json', '.vue', '.ts'],

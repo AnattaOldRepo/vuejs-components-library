@@ -773,6 +773,20 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-dynamic-import-node@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.0.0.tgz#d6fc3f6c5e3bdc34e49c15faca7ce069755c0a57"
+  dependencies:
+    babel-plugin-syntax-dynamic-import "^6.18.0"
+    object.assign "^4.1.0"
+
+babel-plugin-dynamic-import-webpack@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-webpack/-/babel-plugin-dynamic-import-webpack-1.0.2.tgz#cb83435833e073f1600c0188a95edacfdc07c256"
+  dependencies:
+    babel-plugin-syntax-dynamic-import "^6.18.0"
+    babel-template "^6.26.0"
+
 babel-plugin-espower@^2.3.2:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-espower/-/babel-plugin-espower-2.4.0.tgz#9f92c080e9adfe73f69baed7ab3e24f649009373"

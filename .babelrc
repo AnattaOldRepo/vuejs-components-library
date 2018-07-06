@@ -13,11 +13,21 @@
 		["es2015", { "modules": false }],
 		["stage-2"]
 	],
-	"plugins": ["transform-runtime", "transform-class-properties", "transform-object-rest-spread"],
+	"plugins": [
+		"dynamic-import-node",
+		"dynamic-import-webpack",
+		"syntax-dynamic-import",
+		"transform-runtime", 
+		"transform-class-properties", 
+		"transform-object-rest-spread"
+	],
 	"env": {
 		"test": {
 			"presets": ["env", "stage-2", "react"],
 			"plugins": [
+				"dynamic-import-node",
+				"dynamic-import-webpack",
+				"syntax-dynamic-import",				
 				"istanbul",
 				"system-import-transformer",
 				"transform-class-properties",
