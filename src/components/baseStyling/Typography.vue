@@ -11,23 +11,13 @@ export default {
 </script>
 <docs>
 Typography Class names shared globally
-* c-caption
-* c-caption--2
-* c-caption--3
-* c-body
-* c-body--2
-* c-subheader
-* c-subheader--2
-* c-title
-* c-title--2
-* c-headline
-* c-headline--2
-* c-headline--3
-* c-display
-* c-display--2
-* c-display--3
-* c-jumbo
-* c-jumbo--2
+* c-caption | c-caption--2 | c-caption--3
+* c-body | c-body--2
+* c-subheader | c-subheader--2
+* c-title | c-title--2
+* c-headline | c-headline--2 | c-headline--3
+* c-display | c-display--2 | c-display--3
+* c-jumbo | c-jumbo--2
 ```
 <section>
 	<Typography/>

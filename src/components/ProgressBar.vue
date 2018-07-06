@@ -103,10 +103,6 @@ export default {
     grid-column-gap: 40px;
 }
 
-.progress-bars {
-    margin-bottom: 40px;
-}
-
 .c-progressBar {
     position: relative;
     width: 100%;

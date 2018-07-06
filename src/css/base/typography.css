@@ -1,6 +1,5 @@
 .c-caption {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 2px;    
@@ -9,7 +8,6 @@
 
 .c-caption--2 {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 0px;    
@@ -17,7 +15,6 @@
 
 .c-caption--3 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 11px;
     line-height: 16px;
     letter-spacing: 0px;    
@@ -26,7 +23,6 @@
 
 .c-body {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0;   
@@ -34,105 +30,105 @@
 
 .c-body--2 {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 1px;  
+    text-transform: uppercase;
     text-transform: uppercase;
 }
 
 .c-subheader {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 19px;
     line-height: 29px;
     letter-spacing: 2px;  
+    text-transform: uppercase;
 }
 
 .c-subheader--2 {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    letter-spacing: 0;  
+    letter-spacing: 0; 
+    text-transform: uppercase; 
 }
 
 .c-title {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 23px;
     line-height: 35px;
     letter-spacing: 3px;  
+    text-transform: uppercase;
 }
 
 .c-title--2 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 23px;
     line-height: 35px;
     letter-spacing: 3px;  
+    text-transform: uppercase;
 }
 
 .c-headline {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 33px;
     line-height: 44px;
     letter-spacing: 5px;  
+    text-transform: uppercase;
 }
 
 .c-headline--2 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 33px;
     line-height: 44px;
     letter-spacing: 3px;  
+    text-transform: uppercase;
 }
 
 .c-headline--3 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 33px;
     line-height: 44px;
     letter-spacing: 0;  
+    text-transform: uppercase;
 }
 
 .c-display {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 48px;
     line-height: 70px;
     letter-spacing: 8px;  
+    text-transform: uppercase;
 }
 
 .c-display--2 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 48px;
     line-height: 70px;
     letter-spacing: 8px;  
+    text-transform: uppercase;
 }
 
 .c-display--3 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 48px;
     line-height: 70px;
     letter-spacing: 0;  
+    text-transform: uppercase;
 }
 
 .c-jumbo {
     font-family: Gotham Book;
-    font-weight: 400;
     font-size: 69px;
     line-height: 100px;
-    letter-spacing: 11;  
+    letter-spacing: 11px;  
+    text-transform: uppercase;
 }
 
 .c-jumbo--2 {
     font-family: Gotham;
-    font-weight: 700;
     font-size: 69px;
     line-height: 100px;
-    letter-spacing: 11;  
+    letter-spacing: 11px;
+    text-transform: uppercase;
 }
