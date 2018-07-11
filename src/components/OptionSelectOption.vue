@@ -22,7 +22,7 @@
 
 export default {
     name: 'OptionSelectOption',
-    data: () => {
+    data: function () {
         return {
             active: false
         }

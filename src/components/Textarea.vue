@@ -1,12 +1,16 @@
 <template>
-    <div class="c-field">
-        <label class="c-fieldLabel">
+    <div class="c-textareafield">
+        <label class="c-textareafieldLabel">
             {{ label }}
         </label>
         <textarea
-            placeholder="placeholder"
-        >{{ content }}</textarea>
-        <span class="c-fieldCaption">{{ caption }}</span>
+            :style=styleObj
+            :placeholder="placeholder"
+            v-model="value"
+            :required="required ? true : false"
+        >
+            {{ value }}
+        </textarea>
     </div>
 </template>
 
@@ -18,6 +22,11 @@ export default {
     components: {
 
     },
+    data: function () {
+        return {
+            value: ''
+        }
+    }, 
 	props:{
         /**
          * Field Label
@@ -26,14 +35,34 @@ export default {
             type: String,
             required: false
         },
+        /**
+         * Placeholder
+         */        
         placeholder: {
             type: String,
             required: false
         },
+        /**
+         * Required
+         */        
         required: {
             type: Boolean,
             default: false
-        }      
+        },
+        /**
+         * Height of textarea
+         */        
+        height: {
+            type: [Number, Boolean, String],
+            default: '100px'
+        },   
+        /**
+         * Width of textarea
+         */           
+        width: {
+            type: [Number, Boolean, String],
+            default: 'auto'
+        }
 	},
     computed: {
         classObj() {
@@ -43,6 +72,13 @@ export default {
                 'c-btn--large': this.size === 'large',
             }
         },
+        
+        styleObj() {
+            return {
+                width: this.width,
+                height: this.height
+            }
+        }
     }
 }
 </script>
@@ -53,22 +89,25 @@ export default {
   <div class="fields">
     <Textarea 
         label="Field Label"
-        caption="Caption Text"
         placeholder="Type Your Message Here"/>
     <Textarea 
         label="Field Label"
-        caption="Caption Text"
         placeholder="Type Your Message Here"
+        required
     />
     <Textarea 
         label="Field Label"
-        caption="Caption Text"
         placeholder="Type Your Message Here"
+        height="120px"
+        width="250px"
+        required
     />
     <Textarea required 
         placeholder="Type Your Message Here"
         label="Field Label"
-        caption="This is a caption"/>
+        height="120px"
+        width="250px"
+    />
   </div>
 </section>
 ```
@@ -84,29 +123,52 @@ export default {
     grid-row-gap: 20px;
 }
 
-.c-field {
-
-    input,
-    textarea {
-        border: 1px solid #b3b3b3; 
-
-        &:focus {
-            outline: none;
-        }
-    }
+.c-textareafield {
+    display: flex;
+    flex-direction: column;
 
     textarea {
         padding: 10px;
         height: 50px;
         width: 100%;
+        font-family: Gotham Book;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;  
+        border: 1px solid #d7d7d7; 
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            border-color: #aeaeae;
+        }
+
+        &:active,
+        &:focus {
+            border-color: #ee2e2d;
+        }         
+
+        &::-webkit-input-placeholder {
+        color: #bfbfbf;
+        }
+        &::-moz-placeholder {
+        color: #bfbfbf;
+        }
+        &:-ms-input-placeholder {
+        color: #bfbfbf;
+        }
+        &:-moz-placeholder {
+        color: #bfbfbf;
+        }        
     }
 }
 
-    .c-fieldLabel {
-
-    }
-
-    .c-fieldCaption {
-
+    .c-textareafieldLabel {
+        font-family: Gotham Book;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;   
     }
 </style>
