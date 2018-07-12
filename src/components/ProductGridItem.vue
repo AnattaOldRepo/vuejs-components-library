@@ -79,21 +79,21 @@ export default {
          */        
         title: {
             type: String,
-            required: true
+            required: true,
         },        
         /**
          * Subtitle
          */        
         subtitle: {
             type: [String, Boolean],
-            required: false
+            required: false,
         },      
         /**
          * Current Price
          */        
         price: {
             type: String,
-            required: true
+            required: true,
         },      
         /**
          * Previous price if on sale
@@ -132,13 +132,7 @@ export default {
         },                                                        
 	},
     computed: {
-        classObj() {
-            return {
-                'c-btn--small': this.size === 'small',
-                'c-btn--med': this.size === 'med',
-                'c-btn--large': this.size === 'large',
-            }
-        },
+
     },
 
     methods: {
@@ -271,6 +265,7 @@ export default {
                         max-width: 100%;
                         display: block;
                         background-size: cover;
+                        background-position: center;
 
                         &.c-productGridItem__image--two {
                             display: none;
@@ -291,6 +286,7 @@ export default {
                 text-decoration: none;
                 color: #000;
                 display: block;
+                text-align: center;
             }
 
             .c-productGridItem__subtitle {

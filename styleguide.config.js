@@ -13,10 +13,6 @@ module.exports = {
 			name: 'Components',
 			components: './src/components/[A-Z]*.vue'
 		},		
-		{
-			name: 'Modules',
-			components: './src/components/modules/[A-Z]*.vue'
-		},		
 	],
 	require: [ 
 		path.join(__dirname, 'src/css/main.css')
