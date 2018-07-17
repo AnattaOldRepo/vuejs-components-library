@@ -2,7 +2,7 @@
   "name": "styleguide",
   "version": "1.7.10",
   "description": "Nuxt.js project",
-  "author": "Knovour <knovour@gmail.com>",
+  "author": "Anatta Design",
   "private": true,
   "scripts": {
     "dev": "nuxt",

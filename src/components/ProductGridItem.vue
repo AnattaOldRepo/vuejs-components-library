@@ -287,6 +287,7 @@ export default {
                 color: #000;
                 display: block;
                 text-align: center;
+                margin: 8px 0;
             }
 
             .c-productGridItem__subtitle {
