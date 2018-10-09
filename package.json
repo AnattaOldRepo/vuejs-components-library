@@ -12,7 +12,7 @@
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
     "styleguide:gh-pages": "DEPLOY_ENV=GH_PAGES vue-styleguidist build",
-    "deploy": "push-dir --dir=styleguide --branch=master --cleanup"
+    "deploy": "push-dir --dir=styleguide --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "babel-plugin-dynamic-import-node": "^2.0.0",
